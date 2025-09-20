@@ -1,4 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Design Decisions
+
+- TypeScript
+- Tailwind for CSS
+- ShadCN for UI defaults
+- Turbopack, with the expectation that this becomes a monorepo for
+  handling background jobs.
+
+## TODO
+
+- [ ] Add ShadCN components
+
+- [ ] Add Storybook
+
+- [ ] Add Cucumber for testing
+
+- [ ] Add Playwright
+
+- [ ] Add Drizzle
+
+- [ ] ESLint plugin for Drizzle
+
+- [ ] ESLint plugin for Zod.
+
+- [ ] Add Zod or Effect for schema validation.
+
+- [ ] Automatically generate OpenAPI schema file using Next tooling.
+
+- [ ] ESLint plugin for OpenAPI schema.
+
+- [ ] Add Vitest and setup package.json to run it.
+
+- [ ] Add GitHub Actions for linting, typechecking, and testing.
+
+- [ ] Add GitHub Actions for Docker.
+
+- [ ] Husky for precommit hooks.
+
+- [ ] Claude Code settings in an .mcp file
+
+- [ ] Claude Code hooks for formatting.
+
+- [ ] Add Dockerfile for web component
+
+- [ ] Set up Turbopack for building Docker images.
+
+- [ ] Set up Helm Chart building
+
+- [ ] Set up writing to GitHub Packages.
 
 ## Getting Started
 
