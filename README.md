@@ -8,6 +8,8 @@
 
 ## TODO
 
+- [ ] Convert to monorepo style.
+
 - [ ] Add ShadCN components
 
 - [ ] Add Storybook

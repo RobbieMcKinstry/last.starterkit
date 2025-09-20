@@ -75,7 +75,5 @@ in
     prettier.enable = true;
   };
 
-  claude.code.enable = true;
-
   # See full reference at https://devenv.sh/reference/options/
 }
