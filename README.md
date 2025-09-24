@@ -20,7 +20,7 @@
 
 - [ ] Add Playwright
 
-- [ ] Add Drizzle
+- [x] Add Drizzle
 
 - [ ] ESLint plugin for Drizzle
 
