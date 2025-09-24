@@ -8,7 +8,21 @@
 
 ## TODO
 
-- [ ] Convert to monorepo style.
+- [ ] Add Drizzle schema file.
+
+- [ ] Add Vitest and setup package.json to run it.
+
+- [ ] Add GitHub Actions for linting, typechecking, and testing.
+
+- [ ] Add GitHub Actions for Docker.
+
+- [ ] Husky for precommit hooks.
+
+- [ ] Add Dockerfile for web component
+
+- [ ] Automatically generate OpenAPI schema file using Next tooling.
+
+- [ ] Convert to monorepo style using Turborepo.
 
 - [ ] Add SWR for loading from the frontend
 
@@ -20,33 +34,13 @@
 
 - [ ] Add Playwright
 
-- [x] Add Drizzle
-
-- [ ] ESLint plugin for Drizzle
-
 - [ ] ESLint plugin for Zod.
-
-- [ ] Add Zod or Effect for schema validation.
-
-- [ ] Automatically generate OpenAPI schema file using Next tooling.
 
 - [ ] ESLint plugin for OpenAPI schema.
 
-- [ ] Add Vitest and setup package.json to run it.
-
-- [ ] Add GitHub Actions for linting, typechecking, and testing.
-
-- [ ] Add GitHub Actions for Docker.
-
-- [ ] Husky for precommit hooks.
-
 - [ ] Claude Code settings in an .mcp file
 
-- [ ] Claude Code hooks for formatting.
-
-- [ ] Add Dockerfile for web component
-
-- [ ] Set up Turbopack for building Docker images.
+- [ ] Set up Turborepo for building Docker images.
 
 - [ ] Set up Helm Chart building
 
@@ -86,3 +80,10 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+# DONE
+
+- [x] Add Drizzle
+- [x] ESLint plugin for Drizzle
+- [x] Add Effect for schema validation.
+- [x] Claude Code hooks for formatting.
