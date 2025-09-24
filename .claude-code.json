@@ -1,0 +1,5 @@
+{
+  "hooks": {
+    "post-tool-call": "pnpm fmt"
+  }
+}

@@ -10,6 +10,8 @@
 
 - [ ] Convert to monorepo style.
 
+- [ ] Add SWR for loading from the frontend
+
 - [ ] Add ShadCN components
 
 - [ ] Add Storybook
