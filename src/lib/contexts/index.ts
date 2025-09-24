@@ -9,7 +9,11 @@
 
 import { Layer } from "effect/index";
 import AppConfigService from "@/config";
+import DatabaseService from "@/database/service";
 
 // The `BaseLayer` is the list of Services (i.e. dependencies) that
 // are always injected into every request.
-export const BaseLayer = Layer.mergeAll(AppConfigService.Default);
+export const BaseLayer = Layer.mergeAll(
+  AppConfigService.Default,
+  DatabaseService.Default,
+);
